@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        input:checked+span{background: red;}
+        input:checked+span::after{content: " 我被选中了";}
+    </style>
+</head>
+<body>
+<form action="" method="post">
+    <fieldset id="">
+        <legend>点击你喜欢的明星</legend>
+        <ul>
+            <li>
+                <label>
+                    <input type="radio" name="star" /><span>范冰冰</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="star" /><span>李冰冰</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="star" /><span>杨幂</span>
+                </label>
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>以下是多选</legend>
+        <ul>
+            <li>
+                <label>
+                    <input type="checkbox" name="多选" /><span>惊天魔盗团</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="多选" /><span>魔兽</span>
+                </label>
+            <li>
+                <label>
+                    <input type="checkbox" name="多选" /><span>北京遇上西雅图</span>
+                </label>
+            </li>
+            </li>
+        </ul>
+    </fieldset>
+</form>
+</body>
+</html>
